@@ -1,32 +1,37 @@
 # Robot Manipulation Basics
+
 This repository contains a series of Google Colab notebooks for learning about the basics of robot manipulation with a simulated Kinova Gen3 robot arm.
 
 ## Getting Started
 
-Check out this [introduction to Colab](https://colab.research.google.com/notebooks/basic_features_overview.ipynb)
+We'll use [Google Colab]() to run a simulation of our robot, a [Kinova Gen3]() robot arm. Google Colab allows us to run the simulation "in the cloud" on Google's servers, so you don't need to worry about installing software and dependencies on your own computer.
 
-- [Start Here](https://colab.research.google.com/github/vincekurtz/basic-robot-manipulation/blob/main/01_colab-intro.ipynb)
+The notebooks in this repository can be opened directly in Colab [here](https://colab.research.google.com/github/vincekurtz/basic-robot-manipulation/blob/main/), or using the links below. They will make most sense if you go in order, starting from `01_colab-intro.ipynb`. 
 
-### Simulation notebook
 
-- Download and install dependencies
-- Run simulation with meshcat
-- Moving the robot arm with sliders
-- Try to pick up the block, note how hard it is
+### [Colab Intro](https://colab.research.google.com/github/vincekurtz/basic-robot-manipulation/blob/main/01_colab-intro.ipynb)
 
-### Control System details notebook
+This notebook takes you through the basics of the Colab interface. 
 
-- Display control system diagram for the kinova-station
-- Explain all the input and output ports
-- Sending commands programmatically
-- Challenges:
-    - Write functionto send robot end-effector to a specific point
-    - Same for going in a circle
-    - same for picking up the block if the block is in a known position
+### [Simulation Basics](https://colab.research.google.com/github/vincekurtz/basic-robot-manipulation/blob/main/02_simulation-basics.ipynb)
 
-### Future notebooks
+Outlines the basic usage of the simulation, including controlling the robot manually.
 
-- Interface with camera/depth image
-- Using opencv
-- Visual servoing based on color
-- Hardware interface (as Jupyter notebook)
+### [Control System](https://colab.research.google.com/github/vincekurtz/basic-robot-manipulation/blob/main/03_control-system.ipynb)
+
+Provides an overview of the KinovaStation system, and introduces the idea of creating a control system that goes along with it. 
+
+### [Camera](https://colab.research.google.com/github/vincekurtz/basic-robot-manipulation/blob/main/04_camera.ipynb)
+
+Shows how to use the (simulated) RGB camera on the robot in a control loop. 
+
+### Future Notebooks
+
+Some possible topics for future notebooks:
+
+- Adding different objects to the scene
+- Using the depth camera
+- Geometric grasp planning
+- Torque control
+- Hardware interface (?)
+
