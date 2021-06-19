@@ -2,9 +2,9 @@
 
 This repository contains a series of Google Colab notebooks for learning about the basics of robot manipulation with a simulated Kinova Gen3 robot arm.
 
-## Getting Started
+## About
 
-We'll use [Google Colab]() to run a simulation of our robot, a [Kinova Gen3]() robot arm. Google Colab allows us to run the simulation "in the cloud" on Google's servers, so you don't need to worry about installing software and dependencies on your own computer.
+We'll use [Google Colab](https://colab.research.google.com/notebooks/intro.ipynb) to run a simulation of our robot, a [Kinova Gen3](https://www.kinovarobotics.com/en/products/gen3-robot) robot arm. Google Colab allows us to run the simulation "in the cloud" on Google's servers, so you don't need to worry about installing software and dependencies on your own computer.
 
 The notebooks in this repository can be opened directly in Colab [here](https://colab.research.google.com/github/vincekurtz/basic-robot-manipulation/blob/main/), or using the links below. They will make most sense if you go in order, starting from `01_colab-intro.ipynb`. 
 
