@@ -15,7 +15,7 @@ This notebook takes you through the basics of the Colab interface.
 
 ### [Simulation Basics](https://colab.research.google.com/github/vincekurtz/basic-robot-manipulation/blob/main/02_simulation-basics.ipynb)
 
-Outlines the basic usage of the simulation, including controlling the robot manually.
+Outlines the basic usage of the simulation, including controlling the robot with basic commands.
 
 ### [Control System](https://colab.research.google.com/github/vincekurtz/basic-robot-manipulation/blob/main/03_control-system.ipynb)
 
